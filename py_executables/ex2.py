@@ -1,0 +1,23 @@
+import time
+
+time.sleep(2)
+
+print('\nWhy do I always have the feeling that everybody’s doing something better than me on Saturday afternoons?')
+time.sleep(3)
+print('\nTuesday has no feel. Monday has a feel, Friday has a feel, Sunday has a feel…')
+time.sleep(3)
+print('\nJerry, just remember, it’s not a lie if you believe it.')
+time.sleep(3)
+print('\nMoles — freckles’ ugly cousin.')
+time.sleep(3)
+print('\nJust remember, when you control the mail, you control… information.')
+time.sleep(3)
+print('\nPeople don’t turn down money! It’s what separates us from the animals.')
+time.sleep(3)
+print('\nGeorge, we’ve had it with you. Understand? We love you like a son, but even parents have limits.')
+time.sleep(3)
+print('\nYou know I always wanted to pretend I was an architect.')
+time.sleep(3)
+print('\nMaybe the dingo ate your baby!')
+time.sleep(3)
+print('\nThe sea was angry that day, my friends, like an old man trying to send back soup in a deli…')

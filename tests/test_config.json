@@ -1,0 +1,61 @@
+{
+
+    "task_config": [{
+
+               "task_name": "Important Task",
+
+               "task_location": "C:\\Users\\jgurry\\ProjectCode\\PythonProjects\\Omitron Interview\\dist\\test2\\test2.exe",
+
+               "task_interval": 15,
+
+               "task_scheduled_time": "",
+
+               "task_scheduled": "false"
+
+          },
+
+          {
+
+               "task_name": "Important Task",
+
+               "task_location": "C:\\Users\\jgurry\\ProjectCode\\PythonProjects\\Omitron Interview\\dist\\test2\\test2.exe",
+
+               "task_interval": 0,
+
+               "task_scheduled_time": "",
+
+               "task_scheduled": "false"
+
+          },
+                    
+          {
+
+              "task_name": "Test Task",
+
+              "task_location": "C:\\Users\\jgurry\\ProjectCode\\PythonProjects\\Omitron Interview\\dist\\test2\\test2.exe",
+
+              "task_interval": 0,
+
+              "task_scheduled_time": "",
+
+              "task_scheduled": "false"
+
+         }, 
+
+         {
+
+              "task_name": "Test Schedule",
+
+              "task_location": "C:\\Users\\jgurry\\ProjectCode\\PythonProjects\\Omitron Interview\\dist\\test2\\test2.exe",
+
+              "task_interval": 0,
+
+              "task_scheduled_time": "05/05/2020 00:25:00 EST",
+
+              "task_scheduled": "true"
+
+         }
+
+    ]
+
+}
