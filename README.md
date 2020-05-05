@@ -7,7 +7,7 @@
 ### How To Use:
 - clone repo
 - Install Dependencies
-    - Navigate to the folder titled Omitron Interview
+    - Navigate to the main folder of the repo 
     - In command Line: pip install -r requirements.txt
 - Run a Program
     - Open Windows Command Prompt
@@ -55,6 +55,8 @@
     - Implement logging
     - A more efficient way to handle that data flow of PIDs or a more effective reading process of the PIDs.txt file
     - A more automated testing process
+    - Writing more tests
+    - Make filenames as environent variables with an environments file
     - Ability to schedule a task to be run on an interval
     - Ability to have more than one instance of the same program in the user config
 - Strategy with more scalability
