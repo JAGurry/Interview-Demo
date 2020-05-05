@@ -1,1 +1,63 @@
-# Interview-Demo
+### Development Specs:
+- OS: Windows Microsoft 10 Pro
+- system type: X64-based PC
+- Intel i7 CPU
+- Python Version: 3.7.4
+
+### How To Use:
+- clone repo
+- Install Dependencies
+    - Navigate to the folder titled Omitron Interview
+    - In command Line: pip install -r requirements.txt
+- Run a Program
+    - Open Windows Command Prompt
+    - Navigate to the folder titled Taskscheduler
+    - In command Line: python start.py <task_name>
+    - Do not kill current Comment Prompt session, if the session, the task scheduler will be killed
+    - To run multiple programs, in most cases you will want to use a new Windows Command Prompt terminal and repeat the above process.
+        - You may use the same terminal that you started the program in, however output of currently running programs will be directed to Command Prompt terminal where the start command was run and might make running subsequent commands difficult
+- Stop a Program
+    - In most cases you will want to use a new Windows Command Prompt terminal
+        - You may use the same terminal that you started the program in, however output of currently running programs will be directed to Command Prompt terminal where the start command was run and might make running subsequent commands difficult
+    - navigate to the folder titled Omitron Interview 
+    - In command Line: python stop.py <task_name>
+- Editing the user config
+    - The task scheduler can only run programs within the config.json file
+    - One can edit this file to include or remove programs and edit their run type (scheduled, immediate, interval)
+    - There is a strict format to follow.  If not followed there is a high liklihood of error
+        - Every program needs a task_name, task_location, task_interval, task_scheduled_time, and task_scheduled key and value
+        - The task name must be a string
+        - The task location must be a string
+        - The task interval must be an integer. It is always has a value of seconds 
+        - task_scheduled_time must a string, military time, and be in the format of: "mm/dd/yyyy hh:mm:ss EST"
+        - task_scheduled must be a string and must be either: "true" or "false"
+    - There are three different run types: scheduled, immediate, interval
+        - scheduled: task will execute at a time specified in the config.json and only execute once. This is the task_scheduled_time
+        - immediate: task will be executed immediately and only one time
+        - interval: task will be executed every set value of time specified in the congif.json.  Thhis is the task_interval
+    - To set a task as scheduled:
+        - set task_scheduled to "true"
+        - provide an appropriate task_scheduled_time
+        - set task_interval to 0
+    - To set a task as immediate:
+        - set task_scheduled to "false"
+        - set task_scheduled to ""
+        - set task_interval to 0
+    - To set a task as interval:
+        - set task_scheduled to "false"
+        - set task_scheduled to ""
+        - set task_interval to appropriate value
+
+### How to Improve:
+- How to improve this strategy:
+    - All commands can be run on the same Command Prompt
+    - Different Date and time formats can be handled on input
+    - Implement logging
+    - A more efficient way to handle that data flow of PIDs or a more effective reading process of the PIDs.txt file
+    - A more automated testing process
+    - Ability to schedule a task to be run on an interval
+    - Ability to have more than one instance of the same program in the user config
+- Strategy with more scalability
+    - Flask application with data base
+        - Would solve some of the issues above as well
+        
